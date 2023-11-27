@@ -6,8 +6,8 @@ This assignment involves file handling in C++ to read and process triangle data 
 
 ## Implementation Steps
 
-1. **Implemented getline() function in getTriangles() in location `Ex3\Updated Sketchers\src\Reader.cpp`**.
-2. **Used an istringstream to parse the string in location `Ex3\Updated Sketchers\src\Reader.cpp`**.
-3. **Taken all values and pass each (x, y, z) values to the point3D class object in location `Ex3\Updated Sketchers\src\Reader.cpp`**.
-4. **Added that object in the Triangle class type vector in location `Ex3\Updated Sketchers\src\Reader.cpp`**.
-**Used a range-for loop to print out the data from each object in write() function in location `Ex3\Updated Sketchers\src\Writer.cpp`**.
+1. **Implemented getline() function in getTriangles() in location `Sketcher\Updated Sketchers\src\Reader.cpp`**.
+2. **Used an istringstream to parse the string in location `Sketcher\Updated Sketchers\src\Reader.cpp`**.
+3. **Taken all values and pass each (x, y, z) values to the point3D class object in location `Sketcher\Updated Sketchers\src\Reader.cpp`**.
+4. **Added that object in the Triangle class type vector in location `Sketcher\Updated Sketchers\src\Reader.cpp`**.
+**Used a range-for loop to print out the data from each object in write() function in location `Sketcher\Updated Sketchers\src\Writer.cpp`**.
