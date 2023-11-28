@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assignment focuses on the implementation of a lambda expression within the `Sketcher/src/Reader`.cpp file to define a function named `printFileNotFoundError`. The lambda expression returns a string, which is referenced from the user function stack using the `&` reference operator in the Capture Clause. Additionally, the `mutable` keyword is employed to allow modifications to the captured string within the Lambda Expression. The resulting string is then outputted to the user via `std::cout`.
+This assignment focuses on the implementation of a lambda expression within the `Sketcher/src/Reader`.cpp file to define a function named `displayFileMissingError`. The lambda expression returns a string, which is referenced from the user function stack using the `&` reference operator in the Capture Clause. Additionally, the `mutable` keyword is employed to allow modifications to the captured string within the Lambda Expression. The resulting string is then outputted to the user via `std::cout`.
 
 ## Updated Function Definition
 
@@ -16,9 +16,9 @@ This assignment focuses on the implementation of a lambda expression within the 
     - The use of the `mutable` keyword allows the value of the string to be changed from `std::string msg = "File error" to msg = "Error! File Not Found!"`.
     - The lambda expression returns a string indicating a file not found error.
 
-2. **Code Snippet:**
+3. **Code Snippet:**
 ```
-auto printFileNotFoundError = [&msg]() mutable
+auto displayFileMissingError = [&msg]() mutable
 {
     msg = "Error! File Not Found!";
     return msg;
@@ -30,7 +30,7 @@ auto printFileNotFoundError = [&msg]() mutable
 
 1. **Lambda Expression in Action:**
     - Define `std::string msg = "File error"`.
-    - Call the lambda expression `printFileNotFoundError` in the `Reader.cpp` file.
+    - Call the lambda expression `displayFileMissingError` in the `Reader.cpp` file.
 
 2. **Output to User:**
     - Use `std::cout` to output the string returned by the lambda expression.
