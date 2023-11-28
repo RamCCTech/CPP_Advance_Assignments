@@ -9,7 +9,7 @@ public:
     ~Reader();
 
     void getTriangles(std::vector<Triangle>& triangles);
-    std::string printFileNotFound();
+    std::string displayFileMissingError();
 
 private:
     std::string mFilePath;
