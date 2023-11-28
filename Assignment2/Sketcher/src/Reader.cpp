@@ -13,7 +13,7 @@ Reader::~Reader()
 {
 
 }
-std::string Reader::printFileNotFound()
+std::string Reader::displayFileMissingError()
 {
     std::string msg = "Error! File Not Found!";
     return msg;
@@ -23,7 +23,7 @@ void Reader::getTriangles(std::vector<Triangle>& triangles)
     std::ifstream dataFile;
     dataFile.open(mFilePath);
     if (!dataFile.is_open()) { 
-        std::cout << printFileNotFound() << std::endl;
+        std::cout << displayFileMissingError() << std::endl;
         return ;
     }
 
