@@ -10,5 +10,5 @@ This assignment involves printing a string obtained from a function call using `
     - Function Definition: Sketcher/src/Reader.cpp
  
 2. **Function Signature:**
-    - Function Name: std::string displayFileMissingError()
+    - Function Name: `std::string displayFileMissingError()`
     - Returns a string indicating a file not found error.
