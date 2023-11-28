@@ -19,7 +19,7 @@ void Reader::getTriangles(std::vector<Triangle>& triangles)
     std::ifstream dataFile;
     dataFile.open(mFilePath);
     
-    auto printFileNotFoundError = []()
+    auto displayFileMissingError = []()
     {
         std::string msg = "Error! File Not Found!";
         return msg;
@@ -27,7 +27,7 @@ void Reader::getTriangles(std::vector<Triangle>& triangles)
 
     if (!dataFile.is_open())
     {
-        std::cout << printFileNotFoundError() << std::endl;
+        std::cout << displayFileMissingError() << std::endl;
         return;
     }
 
