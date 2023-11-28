@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assignment involves file handling in C++ to read and process triangle data from a file. The implementation is split between two files: `Reader.cpp` and `Writer.cpp`. The tasks include using the `getline()` function, utilizing `istringstream` for string parsing, creating `Point3D` objects, and populating a vector of `Triangle` objects and to read only `vertex` value from .stl file.
+This assignment focuses on file handling in C++ to read and process triangle data from a file, and the implementation is divided between two files: `/Sketcher/src/Reader.cpp` and `/Sketcher/src/Writer.cpp`. The tasks involve leveraging the `getline()` function, utilizing `istringstream` for string parsing, instantiating  `Point3D` objects, and populating a vector of `Triangle` objects. The specific goal is to read only the `vertex` values from a .stl file.
 
 ## Implementation Steps
 
