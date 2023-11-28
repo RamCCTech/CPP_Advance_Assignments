@@ -2,7 +2,7 @@
  
 ## Overview
  
-This assignment involves the function declaration in a class named Reader in the /Sketcher/headers/Reader.h file. The class is designed to represent a point in three-dimensional space.
+This assignment focuses on declaring functions within the `Reader` class, which is defined in the `/Sketcher/headers/Reader.h` file. The class is specifically designed to encapsulate the functionalities associated with reading and processing points in three-dimensional space.
  
 ## Updated Function Definition
  
@@ -11,5 +11,10 @@ This assignment involves the function declaration in a class named Reader in the
     - Implementation: /Sketcher/src/Reader.cpp
  
 2. **Constructor:**
-    - Write a constructor for Reader that takes string variables as arguments.
-    - Initializes member variables with the provided argument values.
+    - Implement a constructor for the `Reader` class that accepts string variables as parameters.
+    - Initialize the member variables with the values provided as arguments.
+
+
+
+
+
